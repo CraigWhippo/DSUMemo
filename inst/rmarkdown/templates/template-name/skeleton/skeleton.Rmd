@@ -1,0 +1,29 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: false
+    latex_engine: pdflatex
+    template: ../svm-latex-memo.tex
+fontfamily: mathpazo
+fontsize: 11pt
+geometry: margin=1in
+header-includes:
+   - \linespread{1.05}
+
+from: Dr. Craig W. Whippo, Associate Professor of Biology/Co-Chair Natural Sciences
+to: Professor X
+subject: Insert subject
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+memorandum: true
+graphics: true
+width: .3
+logoposition: right
+logo: DSU-natural-sci.png
+---
+  
+I am writing to...
+
+
+---
+Send responses to craig.whippo@dickinsonstate.edu
