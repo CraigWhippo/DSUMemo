@@ -4,7 +4,7 @@ output:
     citation_package: natbib
     keep_tex: false
     latex_engine: pdflatex
-    template: ../svm-latex-memo.tex
+    template: svm-latex-memo.tex
 fontfamily: mathpazo
 fontsize: 11pt
 geometry: margin=1in
